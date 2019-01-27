@@ -19,17 +19,10 @@
 		7D5A0F9E1577CE7A005DAB82 /* YACYAMLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A0F9C1577CE7A005DAB82 /* YACYAMLConstants.m */; };
 		7D5A0FA21577CFA5005DAB82 /* YACYAMLExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5A0FA01577CFA5005DAB82 /* YACYAMLExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D5A0FA31577CFA5005DAB82 /* YACYAMLExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A0FA11577CFA5005DAB82 /* YACYAMLExtensions.m */; };
-		7D63EEE0156D8EF700F030FD /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D63EEDF156D8EF700F030FD /* libresolv.dylib */; };
 		7D9D55CE1566F89200CBA9B1 /* YACYAMLKeyedArchiver_Package.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9D55CD1566F89200CBA9B1 /* YACYAMLKeyedArchiver_Package.h */; };
 		7D9D55CF1566FB1700CBA9B1 /* YACYAMLKeyedArchiver.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDC0316156541F8001832F5 /* YACYAMLKeyedArchiver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DDC0312156541F8001832F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC0311156541F8001832F5 /* Foundation.framework */; };
 		7DDC0318156541F8001832F5 /* YACYAMLKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC0317156541F8001832F5 /* YACYAMLKeyedArchiver.m */; };
-		7DDC0320156541F8001832F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC031F156541F8001832F5 /* SenTestingKit.framework */; };
-		7DDC0322156541F8001832F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC0321156541F8001832F5 /* UIKit.framework */; };
-		7DDC0323156541F8001832F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC0311156541F8001832F5 /* Foundation.framework */; };
-		7DDC0326156541F8001832F5 /* libYACYAML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC030E156541F8001832F5 /* libYACYAML.a */; };
-		7DDC032C156541F8001832F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DDC032A156541F8001832F5 /* InfoPlist.strings */; };
-		7DDC032F156541F8001832F5 /* YACYAMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC032E156541F8001832F5 /* YACYAMLTests.m */; };
 		7DE3E3AD15654430006663D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC0311156541F8001832F5 /* Foundation.framework */; };
 		7DE3E41015654441006663D2 /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE3E3C015654441006663D2 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE3E41415654441006663D2 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3E3C815654441006663D2 /* api.c */; };
@@ -48,22 +41,25 @@
 		7DE66F37156E9ADB0016E676 /* YACYAMLUnarchivingObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE66F35156E9ADB0016E676 /* YACYAMLUnarchivingObject.h */; };
 		7DE66F38156E9ADB0016E676 /* YACYAMLUnarchivingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE66F36156E9ADB0016E676 /* YACYAMLUnarchivingObject.m */; };
 		7DECD68E156FB0F4009EE2AC /* YACYAML_Package.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECD68D156FB0F4009EE2AC /* YACYAML_Package.m */; };
+		F2A363F021FD91070092E36E /* YACYAMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC032E156541F8001832F5 /* YACYAMLTests.m */; };
+		F2A363F521FD93D70092E36E /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A363F321FD93BE0092E36E /* libresolv.tbd */; };
+		F2A363F821FE0B240092E36E /* libYACYAML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDC030E156541F8001832F5 /* libYACYAML.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7DDC0324156541F8001832F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DDC0305156541F8001832F5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DDC030D156541F8001832F5;
-			remoteInfo = YACYAML;
-		};
 		7DE3E4291565455C006663D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7DDC0305156541F8001832F5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7DE3E3AB15654430006663D2;
 			remoteInfo = libYAML;
+		};
+		F2A363EB21FD90F00092E36E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDC0305156541F8001832F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDC030D156541F8001832F5;
+			remoteInfo = YACYAML;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -88,16 +84,12 @@
 		7DDC0311156541F8001832F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DDC0316156541F8001832F5 /* YACYAMLKeyedArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACYAMLKeyedArchiver.h; sourceTree = "<group>"; };
 		7DDC0317156541F8001832F5 /* YACYAMLKeyedArchiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YACYAMLKeyedArchiver.m; sourceTree = "<group>"; };
-		7DDC031E156541F8001832F5 /* YACYAMLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YACYAMLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDC031F156541F8001832F5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7DDC0321156541F8001832F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7DDC0329156541F8001832F5 /* YACYAMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YACYAMLTests-Info.plist"; sourceTree = "<group>"; };
 		7DDC032B156541F8001832F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7DDC032D156541F8001832F5 /* YACYAMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACYAMLTests.h; sourceTree = "<group>"; };
 		7DDC032E156541F8001832F5 /* YACYAMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YACYAMLTests.m; sourceTree = "<group>"; };
 		7DE3E3AC15654430006663D2 /* libYAML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYAML.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DE3E3B915654441006663D2 /* announcement.msg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = announcement.msg; sourceTree = "<group>"; };
-		7DE3E3BA15654441006663D2 /* bootstrap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = bootstrap; sourceTree = "<group>"; };
 		7DE3E3BB15654441006663D2 /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
 		7DE3E3BD15654441006663D2 /* doxygen.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxygen.cfg; sourceTree = "<group>"; };
 		7DE3E3BF15654441006663D2 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
@@ -180,6 +172,10 @@
 		7DE66F39156EA0320016E676 /* YACYAMLKeyedUnarchiver_Package.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACYAMLKeyedUnarchiver_Package.h; sourceTree = "<group>"; };
 		7DECD68B156FB0E2009EE2AC /* YACYAML_Package.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YACYAML_Package.h; sourceTree = "<group>"; };
 		7DECD68D156FB0F4009EE2AC /* YACYAML_Package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YACYAML_Package.m; sourceTree = "<group>"; };
+		F2A363DF21FD908C0092E36E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2A363E521FD90F00092E36E /* YACYAMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YACYAMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A363F321FD93BE0092E36E /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		F2A363F621FE08290092E36E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,23 +188,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DDC031A156541F8001832F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D63EEE0156D8EF700F030FD /* libresolv.dylib in Frameworks */,
-				7DDC0320156541F8001832F5 /* SenTestingKit.framework in Frameworks */,
-				7DDC0322156541F8001832F5 /* UIKit.framework in Frameworks */,
-				7DDC0323156541F8001832F5 /* Foundation.framework in Frameworks */,
-				7DDC0326156541F8001832F5 /* libYACYAML.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7DE3E3A915654430006663D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7DE3E3AD15654430006663D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A363E221FD90F00092E36E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A363F821FE0B240092E36E /* libYACYAML.a in Frameworks */,
+				F2A363F521FD93D70092E36E /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +254,8 @@
 			isa = PBXGroup;
 			children = (
 				7DDC030E156541F8001832F5 /* libYACYAML.a */,
-				7DDC031E156541F8001832F5 /* YACYAMLTests.octest */,
 				7DE3E3AC15654430006663D2 /* libYAML.a */,
+				F2A363E521FD90F00092E36E /* YACYAMLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,6 +263,9 @@
 		7DDC0310156541F8001832F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F2A363F621FE08290092E36E /* UIKit.framework */,
+				F2A363F321FD93BE0092E36E /* libresolv.tbd */,
+				F2A363DF21FD908C0092E36E /* XCTest.framework */,
 				7DDC0311156541F8001832F5 /* Foundation.framework */,
 				7D63EEDF156D8EF700F030FD /* libresolv.dylib */,
 				7DDC031F156541F8001832F5 /* SenTestingKit.framework */,
@@ -297,7 +293,6 @@
 		7DDC0327156541F8001832F5 /* YACYAMLTests */ = {
 			isa = PBXGroup;
 			children = (
-				7DDC032D156541F8001832F5 /* YACYAMLTests.h */,
 				7DDC032E156541F8001832F5 /* YACYAMLTests.m */,
 				7DDC0328156541F8001832F5 /* Supporting Files */,
 			);
@@ -317,8 +312,6 @@
 			isa = PBXGroup;
 			children = (
 				7D2A83F61565461E00E914ED /* config.h */,
-				7DE3E3B915654441006663D2 /* announcement.msg */,
-				7DE3E3BA15654441006663D2 /* bootstrap */,
 				7DE3E3BB15654441006663D2 /* configure.ac */,
 				7DE3E3BC15654441006663D2 /* doc */,
 				7DE3E3BE15654441006663D2 /* include */,
@@ -513,25 +506,6 @@
 			productReference = 7DDC030E156541F8001832F5 /* libYACYAML.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7DDC031D156541F8001832F5 /* YACYAMLTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DDC0335156541F8001832F5 /* Build configuration list for PBXNativeTarget "YACYAMLTests" */;
-			buildPhases = (
-				7DDC0319156541F8001832F5 /* Sources */,
-				7DDC031A156541F8001832F5 /* Frameworks */,
-				7DDC031B156541F8001832F5 /* Resources */,
-				7DDC031C156541F8001832F5 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DDC0325156541F8001832F5 /* PBXTargetDependency */,
-			);
-			name = YACYAMLTests;
-			productName = YACYAMLTests;
-			productReference = 7DDC031E156541F8001832F5 /* YACYAMLTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		7DE3E3AB15654430006663D2 /* libYAML */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DE3E3B615654430006663D2 /* Build configuration list for PBXNativeTarget "libYAML" */;
@@ -549,14 +523,38 @@
 			productReference = 7DE3E3AC15654430006663D2 /* libYAML.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		F2A363E421FD90F00092E36E /* YACYAMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A363ED21FD90F00092E36E /* Build configuration list for PBXNativeTarget "YACYAMLTests" */;
+			buildPhases = (
+				F2A363E121FD90F00092E36E /* Sources */,
+				F2A363E221FD90F00092E36E /* Frameworks */,
+				F2A363E321FD90F00092E36E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A363EC21FD90F00092E36E /* PBXTargetDependency */,
+			);
+			name = YACYAMLTests;
+			productName = YACYAMLTests1;
+			productReference = F2A363E521FD90F00092E36E /* YACYAMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7DDC0305156541F8001832F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Things Made Out Of Other Things";
+				TargetAttributes = {
+					F2A363E421FD90F00092E36E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 7DDC0308156541F8001832F5 /* Build configuration list for PBXProject "YACYAML" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -571,38 +569,21 @@
 			projectRoot = "";
 			targets = (
 				7DDC030D156541F8001832F5 /* YACYAML */,
-				7DDC031D156541F8001832F5 /* YACYAMLTests */,
 				7DE3E3AB15654430006663D2 /* libYAML */,
+				F2A363E421FD90F00092E36E /* YACYAMLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7DDC031B156541F8001832F5 /* Resources */ = {
+		F2A363E321FD90F00092E36E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DDC032C156541F8001832F5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7DDC031C156541F8001832F5 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DDC030A156541F8001832F5 /* Sources */ = {
@@ -621,14 +602,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DDC0319156541F8001832F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DDC032F156541F8001832F5 /* YACYAMLTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7DE3E3A815654430006663D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -644,18 +617,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F2A363E121FD90F00092E36E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A363F021FD91070092E36E /* YACYAMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DDC0325156541F8001832F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7DDC030D156541F8001832F5 /* YACYAML */;
-			targetProxy = 7DDC0324156541F8001832F5 /* PBXContainerItemProxy */;
-		};
 		7DE3E42A1565455C006663D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7DE3E3AB15654430006663D2 /* libYAML */;
 			targetProxy = 7DE3E4291565455C006663D2 /* PBXContainerItemProxy */;
+		};
+		F2A363EC21FD90F00092E36E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDC030D156541F8001832F5 /* YACYAML */;
+			targetProxy = F2A363EB21FD90F00092E36E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -675,17 +656,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -705,11 +699,13 @@
 					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -718,16 +714,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -741,11 +749,13 @@
 					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"",
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator";
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
@@ -760,7 +770,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macos";
 			};
 			name = Debug;
 		};
@@ -774,41 +783,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macos";
-			};
-			name = Release;
-		};
-		7DDC0336156541F8001832F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				INFOPLIST_FILE = "YACYAMLTests/YACYAMLTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		7DDC0337156541F8001832F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				INFOPLIST_FILE = "YACYAMLTests/YACYAMLTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -824,6 +798,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macos";
 			};
@@ -841,8 +816,81 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macos";
+			};
+			name = Release;
+		};
+		F2A363EE21FD90F00092E36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = None;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "YACYAMLTests/YACYAMLTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = me.stcui.YACYAMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Debug;
+		};
+		F2A363EF21FD90F00092E36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = None;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "YACYAMLTests/YACYAMLTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = me.stcui.YACYAMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Release;
 		};
@@ -867,20 +915,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DDC0335156541F8001832F5 /* Build configuration list for PBXNativeTarget "YACYAMLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DDC0336156541F8001832F5 /* Debug */,
-				7DDC0337156541F8001832F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7DE3E3B615654430006663D2 /* Build configuration list for PBXNativeTarget "libYAML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7DE3E3B415654430006663D2 /* Debug */,
 				7DE3E3B515654430006663D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A363ED21FD90F00092E36E /* Build configuration list for PBXNativeTarget "YACYAMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A363EE21FD90F00092E36E /* Debug */,
+				F2A363EF21FD90F00092E36E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

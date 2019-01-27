@@ -117,7 +117,7 @@
     // since they won't be retained in the _archivedObjectToItem dictionary.
     _nonAnchoringObjects = [[NSMutableArray alloc] init];
     
-    _scalarAnchorsAllowed = ((options & YACYAMLKeyedArchiverOptionDontUseObjectEquality) == YACYAMLKeyedArchiverOptionAllowScalarAnchors);
+    _scalarAnchorsAllowed = ((options & YACYAMLKeyedArchiverOptionAllowScalarAnchors) == YACYAMLKeyedArchiverOptionAllowScalarAnchors);
 }
 
 - (id)initForWritingWithMutableData:(NSMutableData *)mdata options:(YACYAMLKeyedArchiverOptions)options
@@ -399,13 +399,14 @@ static int EmitToNSMutableData(void *ext, unsigned char *buffer, size_t size)
 		default: 
             [NSException raise:YACYAMLUnsupportedTypeException format:@"Tried to encode value of unhandled type"];
 	}
-    
-    [self encodeObject:toEncode forKey:nil];
+    NSString *key = nil;
+    [self encodeObject:toEncode forKey:key];
 }
 
 - (void)encodeDataObject:(NSData *)data
 {
-    [self encodeObject:data forKey:nil];
+    NSString *key = nil;
+    [self encodeObject:data forKey:key];
 }
 
 @end
